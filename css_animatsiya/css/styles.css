@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dot1 {
+    position: absolute;
+    top: 44.44%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 2s infinite both;
+}
+
+.dot2 {
+    position: absolute;
+    top: 45.2%;
+    left: 51.72%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 3s infinite both;
+}
+
+.dot3 {
+    position: absolute;
+    top: 47.2%;
+    left: 53.03%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 4s infinite both;
+}
+
+.dot4 {
+    position: absolute;
+    top: 50.35%;
+    left: 53.88%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 5s infinite both;
+}
+
+.dot5 {
+    position: absolute;
+    top: 53.97%;
+    left: 54.2%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 6s infinite both;
+}
+
+.dot6 {
+    position: absolute;
+    top: 57.58%;
+    left: 53.88%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 7s infinite both;
+}
+
+.dot7 {
+    position: absolute;
+    top: 60.70%;
+    left: 53.03%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 8s infinite both;
+}
+
+.dot8 {
+    position: absolute;
+    top: 62.73%;
+    left: 51.72%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 9s infinite both;
+}
+
+.dot9 {
+    position: absolute;
+    top: 63.49%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 10s infinite both;
+}
+
+.dot10 {
+    position: absolute;
+    top: 62.73%;
+    left: 48.28%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 11s infinite both;
+}
+
+.dot11 {
+    position: absolute;
+    top: 60.71%;
+    left: 46.97%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 12s infinite both;
+}
+
+.dot12 {
+    position: absolute;
+    top: 57.58%;
+    left: 46.12%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 13s infinite both;
+}
+
+.dot13 {
+    position: absolute;
+    top: 53.97%;
+    left: 45.8%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 14s infinite both;
+}
+
+.dot14 {
+    position: absolute;
+    top: 50.35%;
+    left: 46.12%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 15s infinite both;
+}
+
+.dot15 {
+    position: absolute;
+    top: 47.20%;
+    left: 46.97%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 16s infinite both;
+}
+
+.dot16 {
+    position: absolute;
+    top: 45.2%;
+    left: 48.28%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot1 16s cubic-bezier(1, 1, 1, 1) 17s infinite both;
+}
+
+@keyframes dot1 {
+    1% {
+        background-color: #333;
+    }
+    6.6% {
+        background-color: yellow;
+    }
+    13.3% {
+        background-color: yellow;
+    }
+    20% {
+        background-color: yellow;
+    }
+    26.6% {
+        background-color: red;
+    }
+    33.3% {
+        background-color: red;
+    }
+    40% {
+        background-color: red;
+    }
+    46.6% {
+        background-color: red;
+    }
+    53.3% {
+        background-color: green;
+    }
+    60% {
+        background-color: green;
+    }
+    66.6% {
+        background-color: green;
+    }
+    73.3% {
+        background-color: green;
+    }
+    80% {
+        background-color: blue;
+    }
+    86.6% {
+        background-color: blue;
+    }
+    93.3% {
+        background-color: blue;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+.loading {
+    position: absolute;
+    top: 75%;
+    left: 40.5%;
+    font-weight: 200;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    animation: loading 4s cubic-bezier(1, 1, 1, 1) 1s infinite both;
+}
+
+.dot17 {
+    position: absolute;
+    top: 77%;
+    left: 51.5%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot17 5s cubic-bezier(1, 1, 1, 1) 2s infinite both;
+}
+
+.dot18 {
+    position: absolute;
+    top: 77%;
+    left: 52.5%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot17 5s cubic-bezier(1, 1, 1, 1) 3s infinite both;
+}
+
+.dot19 {
+    position: absolute;
+    top: 77%;
+    left: 53.5%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot17 5s cubic-bezier(1, 1, 1, 1) 4s infinite both;
+}
+
+.dot20 {
+    position: absolute;
+    top: 77%;
+    left: 54.5%;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: dot17 5s cubic-bezier(1, 1, 1, 1) 5s infinite both;
+}
+
+@keyframes dot17 {
+    1% {
+        background-color: yellow;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes loading {
+    1% {
+        color: blue;
+    }
+    33% {
+        color: green;
+    }
+    66% {
+        color: yellowgreen;
+    }
+    100% {
+        color: red;
+    }
+}
